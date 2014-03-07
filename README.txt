@@ -1,1 +1,3 @@
-Solutions to ProjectEuler
+Solutions to ProjectEuler problems!
+
+Solved: 1,2,3
