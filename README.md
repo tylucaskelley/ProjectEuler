@@ -1,6 +1,9 @@
-ProjectEuler
+Project Euler Solutions
 ============
+_projecteuler.net_
 
-###Solutions for Math Problems
+_2014 Ty-Lucas Kelley_
 
-Solved: 1,2,3,4,5
+###Solved
+
+* 1 - 5

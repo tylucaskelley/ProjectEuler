@@ -1,4 +1,4 @@
-//Problem Five: Smallest number that can be divided by all integers 1 - 20 w/o remainder
+//Problem Five: Smallest number that can be divided by all integers 1 - 20
 
 #include <iostream>
 using namespace std;

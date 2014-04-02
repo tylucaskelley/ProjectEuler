@@ -1,4 +1,5 @@
 //Problem #1: Sum of multiples of 3 or 5 under 1000
+
 #include <iostream>
 using namespace std;
 const unsigned int MAX = 1000;
