@@ -6,6 +6,8 @@ _2014 Ty-Lucas Kelley_
 
 ###Solved Problems
 
+Detailed solutions and explanations will come eventually!
+
 * 1
 
 * 2
@@ -29,5 +31,9 @@ _2014 Ty-Lucas Kelley_
 * 13
 
 * 14
+
+* 16
+
+* 18
 
 * 100
