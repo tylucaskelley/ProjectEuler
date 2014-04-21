@@ -68,7 +68,7 @@ func main() {
         for j := 0; j < len(triangle); j++ {
             a, err := strconv.Atoi(triangle[i][j])
             if err != nil {
-                log.Fatal(err)   
+                log.Fatal(err) 
             }
             
             nums[i][j] = a
