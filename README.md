@@ -36,4 +36,8 @@ Detailed solutions and explanations will come eventually!
 
 * 18
 
+* 19
+
+* 20
+
 * 100
