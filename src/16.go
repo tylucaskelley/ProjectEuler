@@ -6,7 +6,6 @@ import (
     "math"
     "strconv"
     "strings"
-    //"os"
 )
 
 //Takes a 128-bit floating point number and represents it as a string
