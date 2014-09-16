@@ -25,6 +25,7 @@ To solve the same math problems in 5 different languages, simply to see how the 
 
 C
 
+```c
     #include <stdio.h>
     #include <stdbool.h>
 
@@ -50,13 +51,17 @@ C
         }
         return false;
     }
+```
 
 Python
 
+```python
     print sum([i for i in xrange(1000) if i % 3 == 0 or i % 5 == 0])
+```
 
 Go
 
+```go
     package main
 
     import "fmt"
@@ -74,11 +79,11 @@ Go
         }
         fmt.Printf("%d\n", sum)
     }
+```
 
 JavaScript
 
 ```js
-
     function multiples(n) {
         var sum = 0;
 
