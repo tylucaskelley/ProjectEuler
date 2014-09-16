@@ -18,8 +18,75 @@ To solve the same math problems in 5 different languages, simply to see how the 
 
 ### Current solutions
 
-Coming soon!
+* 1: Multiples of 3 and 5
+* 2: Even Fibonacci numbers
 
 ### Example: problem 1 in all 4 languages
 
-Coming soon!
+C
+
+    #include <stdio.h>
+    #include <stdbool.h>
+
+    bool isMult(int);
+
+    int main(int argc, char** argv) {
+        int sum = 0;
+        int i;
+
+        for (i = 1; i < 1000; i++) {
+            if (isMult(i)) {
+                sum += i;
+            }
+        }
+
+        printf("%d\n", sum);
+        return 0;
+    }
+
+    bool isMult(int x) {
+        if (x % 3 == 0 || x % 5 == 0) {
+            return true;
+        }
+        return false;
+    }
+
+Python
+
+    print sum([i for i in xrange(1000) if i % 3 == 0 or i % 5 == 0])
+
+Go
+
+    package main
+
+    import "fmt"
+
+    func isMult(i int) bool {
+        return i % 3 == 0 || i % 5 == 0
+    }
+
+    func main() {
+        sum := 0
+        for i := 0; i < 1000; i++ {
+            if isMult(i) {
+                sum += i
+            }
+        }
+        fmt.Printf("%d\n", sum)
+    }
+
+JavaScript
+
+    function multiples(n) {
+        var sum = 0;
+
+        for (var i = 0; i < n; i++) {
+            if (i % 3 === 0 || i % 5 === 0) {
+                sum += i;
+            }
+        }
+
+        return sum;
+    }
+
+    console.log(multiples(1000));
