@@ -21,7 +21,7 @@ To solve the same math problems in 5 different languages, simply to see how the 
 * 1: Multiples of 3 and 5
 * 2: Even Fibonacci numbers
 
-### Example: problem 1 in all 4 languages
+### Problem 1 in all 5 languages
 
 C
 
@@ -97,4 +97,26 @@ JavaScript
     }
 
     console.log(multiples(1000));
+```
+
+Java
+
+```java
+    public class One {
+        public static void main(String[] args) {
+            System.out.printf("%d\n", multiples(1000));        
+        }
+
+        public static int multiples(int n) {
+            int sum = 0;
+
+            for (int i = 0; i < n; i++) {
+                if (i % 3 == 0 || i % 5 == 0) {
+                    sum += i;
+                }
+            }
+
+            return sum;
+        }
+    }
 ```
