@@ -1,43 +1,25 @@
-Project Euler Solutions
-============
-_projecteuler.net_
+# Project Euler Solutions
 
-_2014 Ty-Lucas Kelley_
+**Ty-Lucas Kelley**
 
-###Solved Problems
+---
 
-Detailed solutions and explanations will come eventually!
+### Goal
 
-* 1
+To solve the same math problems in 5 different languages, simply as an exercise.
 
-* 2
+### Languages used
 
-* 3
+* C
+* Go
+* JavaScript (NodeJS)
+* Python
+* Java
 
-* 4
+### Current solutions
 
-* 5
+Coming soon!
 
-* 6
+### Example: problem 1 in all 4 languages
 
-* 7
-
-* 8
-
-* 10
- 
-* 12
-
-* 13
-
-* 14
-
-* 16
-
-* 18
-
-* 19
-
-* 20
-
-* 100
+Coming soon!
