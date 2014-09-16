@@ -77,6 +77,8 @@ Go
 
 JavaScript
 
+```js
+
     function multiples(n) {
         var sum = 0;
 
@@ -90,3 +92,4 @@ JavaScript
     }
 
     console.log(multiples(1000));
+```
