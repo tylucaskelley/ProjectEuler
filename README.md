@@ -6,7 +6,7 @@
 
 ### Goal
 
-To solve the same math problems in 5 different languages, simply as an exercise.
+To solve the same math problems in 5 different languages, simply to see how the solutions compare in terms of speed, readability, and other factors.
 
 ### Languages used
 
