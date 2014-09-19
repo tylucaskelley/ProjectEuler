@@ -6,22 +6,23 @@
 
 ### Goal
 
-To solve the same math problems in 5 different languages, simply to see how the solutions compare in terms of speed, readability, and other factors.
+To solve the same math problems in a bunch of different languages, simply to see how the solutions compare in terms of speed, readability, and other factors.
 
-### Languages used
+### Languages used as of now
 
 * C
 * Go
 * JavaScript (NodeJS)
 * Python
 * Java
+* Ruby
 
 ### Current solutions
 
 * 1: Multiples of 3 and 5
 * 2: Even Fibonacci numbers
 
-### Problem 1 in all 5 languages
+### Example: Problem 1
 
 C
 
@@ -119,4 +120,12 @@ Java
             return sum;
         }
     }
+```
+
+Ruby
+
+```ruby
+    (1..999).each do |x|
+        sum += x if (x % 3 == 0) || (x % 5 == 0)
+    end
 ```
