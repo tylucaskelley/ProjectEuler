@@ -1,10 +1,10 @@
 # prints sum of all even-valued fibonacci numbers up to 4000000
 
-s, a, b = (0, 1, 2)
+sum, a, b = 0, 1, 2
 
-while a <= 4000000:
-    if a % 2 == 0:
-        s += a
+while a < 4000000 do
+    sum += a if a % 2 == 0
     a, b = b, a + b
+end
 
-print s
+puts(sum)

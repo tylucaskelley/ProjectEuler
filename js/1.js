@@ -1,13 +1,11 @@
-function multiples(n) {
-    var sum = 0;
+// finds sum of all multiples of 3 and 5 under 1000
 
-    for (var i = 0; i < n; i++) {
-        if (i % 3 === 0 || i % 5 === 0) {
-            sum += i;
-        }
+var sum = 0;
+
+for (var i = 0; i < 1000; i++) {
+    if (i % 3 === 0 || i % 5 === 0) {
+        sum += i;
     }
-
-    return sum;
 }
 
-console.log(multiples(1000));
+console.log(sum);

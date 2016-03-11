@@ -1,19 +1,17 @@
-function fibSum(n) {
-    var a = 1;
-    var b = 2;
-    var sum = 0;
-    
-    while (a <= n) {
-        if (a % 2 == 0) {
-            sum += a;
-        }
+// prints sum of all even-valued fibonacci numbers up to 4000000
 
-        var temp = a;
-        a = b;
-        b = temp + b;
+var a = 1;
+var b = 2;
+var sum = 0;
+
+while (a <= 4000000) {
+    if (a % 2 == 0) {
+        sum += a;
     }
 
-    return sum;
-};
+    var temp = a;
+    a = b;
+    b = temp + b;
+}
 
-console.log(fibSum(4000000));
+console.log(sum);

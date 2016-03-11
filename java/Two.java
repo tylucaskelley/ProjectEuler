@@ -1,3 +1,5 @@
+// prints sum of all even-valued fibonacci numbers up to 4000000
+
 public class Two {
     public static void main(String[] args) {
         System.out.printf("%d\n", fibSum(4000000));

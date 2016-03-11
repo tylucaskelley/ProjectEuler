@@ -1,3 +1,5 @@
+// prints sum of all even-valued fibonacci numbers up to 4000000
+
 package main
 
 import "fmt"
@@ -9,10 +11,9 @@ func main() {
         if a % 2 == 0 {
             sum += a
         }
-    
+
         a, b = b, a + b
     }
-    
+
     fmt.Printf("%d\n", sum)
 }
-
