@@ -1,16 +1,17 @@
 # Project Euler Solutions
 
-Solving math problems in a bunch of programming languages
+> Solving math problems in a bunch of programming languages
 
-*by Ty-Lucas Kelley*
+**Note**: This project is no longer maintained.
 
 ---
 
-### Goal
+## Goal
 
-To solve the same math problems in a bunch of different languages, simply to see how the solutions compare in terms of speed, readability, and other factors.
+To solve the same math problems in a bunch of different languages, simply to see how the solutions compare
+in terms of speed, readability, and other factors.
 
-### Languages
+## Languages
 
 * Bash
 * C
@@ -20,7 +21,7 @@ To solve the same math problems in a bunch of different languages, simply to see
 * Python
 * Ruby
 
-### Current solutions
+## Current solutions
 
 * 1: Multiples of 3 and 5
 * 2: Even Fibonacci numbers
